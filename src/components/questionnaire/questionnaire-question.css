@@ -1,0 +1,68 @@
+.questionnaire-question__progress {
+  margin: -1px calc(var(--padding-medium) * (-1)) 0;
+}
+
+.questionnaire-question__form {
+  --input-label-gap: 15px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  margin: calc(var(--padding-small) * (-1));
+  margin-top: calc(var(--padding-medium) - var(--padding-small));
+  padding: var(--padding-small);
+  min-height: 200px;
+  overflow-x: hidden;
+}
+
+.questionnaire-question__form .questionnaire-question__number-slider-input,
+.questionnaire-question__form .questionnaire-question__boolean-input {
+  margin: var(--input-label-gap) 0 0;
+}
+
+.questionnaire-question__form .questionnaire-question__single-choice-input,
+.questionnaire-question__form .questionnaire-question__multiple-choice-input {
+  margin: var(--input-label-gap) 0 calc(var(--padding-small) * (-1));
+}
+
+.questionnaire-question__form .questionnaire-question__date-input .fieldset__row {
+  margin: calc(var(--padding-small) * (-1)) 0;
+}
+
+.questionnaire-question__form .questionnaire-question__date-input .fieldset__item {
+  margin: var(--padding-small);
+}
+
+.questionnaire-question__form .questionnaire-question__date-input .date-input-datepicker {
+  margin: var(--padding-medium) auto;
+  width: 24px;
+}
+
+.questionnaire-question__form .questionnaire-question__single-choice-dropdown-input [id^='autocomplete-option-'] {
+  cursor: pointer;
+}
+
+.questionnaire-question__description {
+  margin: 0 0 calc(var(--padding-large) - var(--input-label-gap));
+  word-wrap: break-word;
+}
+
+.questionnaire-question__continue {
+  margin-top: auto;
+  padding-top: var(--padding-large);
+}
+
+@media screen and (min-width: 400px) {
+  .questionnaire-question__form .date-input .date-input-datepicker {
+    margin: var(--padding-small) 0 var(--padding-small) var(--padding-medium);
+  }
+}
+
+.disabled>input[type='checkbox'].sc-d4l-checkbox+label.sc-d4l-checkbox {
+  cursor: not-allowed;
+  color: var(--color-primary-lightest);
+}
+
+.disabled>input[type='checkbox'].sc-d4l-checkbox+label.sc-d4l-checkbox::before {
+  border-color: var(--color-primary-lightest);
+}

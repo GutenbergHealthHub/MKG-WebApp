@@ -1,0 +1,68 @@
+:root {
+  --header-height-desktop: 118px;
+  --footer-height-desktop: 153px;
+  --max-width-desktop: 360px;
+  --max-width-desktop-wide: 600px;
+
+  --logo-height: 48px;
+
+  --font-family-primary: -apple-system, Ubuntu, Roboto, 'Segoe UI', 'Noto Sans', Cantarell, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji';
+  --font-family-secondary: var(--font-family-primary);
+
+  --color-white: #fff;
+
+  --color-primary: #1c2732;
+  --color-primary-light: #343e47;
+  --color-primary-lighter: #676e75;
+  --color-primary-lightest: #aaacaf;
+  --color-primary-extra-lightest: #d1d1d1;
+
+  --color-secondary: #eb576a;
+  --color-secondary-light: #e27b89;
+
+  --color-border-button-primary-hover: var(--color-secondary);
+  --color-background-button-primary-hover: var(--color-secondary);
+  --color-border-button-primary-active: var(--color-secondary-light);
+  --color-background-button-primary-active: var(--color-secondary-light);
+  --color-border-button-secondary-hover: var(--color-secondary);
+  --color-background-button-secondary-hover: var(--color-white);
+  --color-text-button-secondary-hover: var(--color-secondary);
+  --color-background-button-secondary-active: var(--color-white);
+  --color-border-button-secondary-active: var(--color-secondary-light);
+  --color-text-button-secondary-active: var(--color-secondary-light);
+  --color-border-button-secondary-disabled: var(--color-primary-lightest);
+  --color-background-button-secondary-disabled: var(--color-white);
+  --color-text-button-secondary-disabled: var(--color-primary-lightest);
+
+  --padding-small: var(--space-xs);
+  --padding-normal: var(--space-s);
+  --padding-medium: var(--space-m);
+  --padding-large: var(--space-l);
+
+  --shadow-soft: 0 1px 4px 1px rgba(0, 0, 0, 0.15);
+  --shadow-xl: var(--space-xs) var(--space-xs) var(--space-l) rgba(0, 0, 0, 0.15);
+
+  /* Min width media queries breakpoints */
+  --tablet: 768px;
+  --desktop: 960px;
+  --widescreen: 1152px;
+}
+
+.device--touch {
+  --color-border-button-primary-hover: var(--color-border-button-primary-default);
+  --color-background-button-primary-hover: var(--color-background-button-primary-default);
+  --color-text-button-primary-hover: var(--color-text-button-primary-default);
+  --color-border-button-primary-active: var(--color-secondary);
+  --color-background-button-primary-active: var(--color-secondary);
+
+  --color-border-button-secondary-hover: var(--color-border-button-secondary-default);
+  --color-background-button-secondary-hover: var(--color-background-button-secondary-default);
+  --color-text-button-secondary-hover: var(--color-text-button-secondary-default);
+  --color-border-button-secondary-active: var(--color-secondary);
+  --color-background-button-secondary-active: var(--color-white);
+
+  --color-border-button-tertiary-hover: var(--color-border-button-tertiary-default);
+  --color-background-button-tertiary-hover: var(--color-background-button-tertiary-default);
+  --color-text-button-tertiary-hover: var(--color-text-button-tertiary-default);
+}

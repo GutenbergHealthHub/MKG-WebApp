@@ -1,0 +1,12 @@
+.notification-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: var(--shadow-soft);
+  z-index: calc(var(--z-index-navigation-menu) + 1);
+}
+
+.notification-container .button.button.button {
+  color: var(--color-white);
+}

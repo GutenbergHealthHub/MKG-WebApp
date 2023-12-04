@@ -1,0 +1,67 @@
+::selection,
+::-moz-selection {
+  background: var(--color-secondary-light);
+  color: var(--color-white);
+}
+
+body {
+  font-family: var(--font-family-secondary);
+  font-size: var(--font-size-desktop-s);
+  line-height: 1.45;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-primary);
+  font-weight: 500;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 1.45;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1;
+}
+
+h4 {
+  font-size: var(--font-size-desktop-m);
+  line-height: 1.25;
+}
+
+h5 {
+  font-size: var(--font-size-desktop-s);
+  line-height: 1.45;
+}
+
+h6 {
+  font-weight: normal;
+  font-size: var(--font-size-desktop-s);
+  line-height: 1.45;
+}
+
+small {
+  font-size: var(--font-size-desktop-xs);
+  line-height: 1.25;
+}
+
+a {
+  text-decoration: none;
+}
+
+p a,
+.t-link a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+p.error {
+  color: var(--color-feedback-alarm);
+}
