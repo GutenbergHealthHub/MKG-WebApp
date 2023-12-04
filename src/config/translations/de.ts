@@ -117,7 +117,53 @@ export default {
   },
   imprint: {
     headline: 'Impressum',
-    content: 'Fügen Sie auf dieser Seite Ihr Impressum ein. Sie können <strong>HTML</strong> verwenden.',
+    content: `<b>Anschrift und Kontakt</b>
+    <br>
+    Universitätsmedizin der Johannes Gutenberg-Universität Mainz
+    <br>
+    Langenbeckstraße 1
+    <br>
+    55131 Mainz
+    <br>
+    Tel. <a href="tel:+49 (0) 6131 17-0">+49 (0) 6131 17-0</a>
+    <br>
+    E-mail: <a href="mailto:webmaster@unimedizin-mainz.de">webmaster@unimedizin-mainz.de</a>
+    <br><br>
+    <b>Rechtsform</b>
+    <br>
+    Die Universitätsmedizin der Johannes Gutenberg-Universität Mainz ist eine Körperschaft des öffentlichen Rechts.
+    <br><br>
+    <b>Mitglieder des Vorstandes der Universitätsmedizin Mainz</b>
+    <br>
+    Vorstandsvorsitzender und Medizinischer Vorstand (vertretungsberechtigt)
+    Univ.-Prof. Dr. Norbert Pfeiffer
+    Weiterführende Informationen: www.unimedizin-mainz.de/ueber-uns/vorstand
+    <br><br>
+    <b>Umsatzsteuer-Identifikationsnummer</b>
+    <br>
+    DE149065652
+    <br><br>
+    <b>Vorsitzender des Aufsichtsrates</b>
+    <br>
+    Staatssekretär Dr. Denis Alt
+    <br>
+    Ministerium für Wissenschaft und Gesundheit des Landes Rheinland-Pfalz
+    <br>
+    Mittlere Bleiche 61
+    <br>
+    55116 Mainz
+    <br><br>
+    <b>Aufsichtsbehörde</b>
+    <br>
+    Die Universitätsmedizin steht unter der Rechtsaufsicht des für das Hochschulwesen zuständigen Ministeriums, die nach den hierfür geltenden hochschulrechtlichen Regelungen ausgeübt wird.
+    Zuständige Aufsichtsbehörde für die Universitätsmedizin ist:
+    <br>
+    Ministerium für Wissenschaft und Gesundheit des Landes Rheinland-Pfalz
+    <br>
+    Mittlere Bleiche 61
+    <br>
+    55116 Mainz
+    `,
   },
   terms: {
     headline: 'Nutzungsbedingungen',
