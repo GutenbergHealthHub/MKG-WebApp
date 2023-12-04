@@ -48,7 +48,7 @@ export default {
   },
   navigation: {
     contact: 'Kontakt',
-    copyright_note: '© {{ year }} NUM compass',
+    copyright_note: '© {{ year }} Unimedizin Mainz',
     dashboard: 'Übersicht',
     faq: 'FAQ',
     imprint: 'Impressum',

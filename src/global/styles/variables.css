@@ -1,7 +1,7 @@
 :root {
   --header-height-desktop: 118px;
   --footer-height-desktop: 153px;
-  --max-width-desktop: 360px;
+  --max-width-desktop: 500px;
   --max-width-desktop-wide: 600px;
 
   --logo-height: 48px;

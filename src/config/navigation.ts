@@ -36,13 +36,8 @@ export const NAVIGATION_ITEMS: NUMNavigationItem[] = CUSTOM.NAVIGATION_ITEMS ?? 
   },
   {
     key: 'contact',
-    url: 'https://contact.dev',
-    icon: 'document',
-  },
-  {
-    key: 'faq',
-    url: 'https://faq.dev',
-    icon: 'questionmark',
+    url: 'mailto://fabia.siegberg@unimedizin-mainz.de',
+    icon: 'mail',
   },
   {
     key: 'logout',

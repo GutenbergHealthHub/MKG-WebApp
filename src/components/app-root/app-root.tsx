@@ -115,7 +115,7 @@ export class AppRoot {
         <num-notifications />
 
         <d4l-app-header
-          customLogo="/assets/logo.svg"
+          customLogo="/assets/logo.png"
           logoUrl={ROUTES.ROOT}
           logoUrlTitle={stores.i18n.t('navigation.logo')}
           logoUrlText={stores.i18n.t('navigation.logo')}

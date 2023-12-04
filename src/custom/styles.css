@@ -14,3 +14,40 @@
  * in your DevTools and scroll down the styles until you see the declarations made
  * on the :root element.
  */
+
+.autocomplete.sc-d4l-autocomplete [role='listbox'].sc-d4l-autocomplete>li.sc-d4l-autocomplete {
+    text-align: left;
+}
+
+
+
+main {
+    padding-top: 0;
+    justify-content: center;
+}
+
+.app-header .app-header__custom-logo {
+    height: auto;
+    max-width: 100%;
+}
+
+.app-header__logo_link {
+    max-width: 315px;
+}
+
+.app-header__title {
+    margin-right: var(--space-s);
+}
+
+main {
+    justify-content: space-evenly;
+}
+
+.mainIcon img {
+    height: 125px;
+    width: 125px;
+}
+
+.u-infotext.block {
+    text-align: justify;
+}

@@ -27,7 +27,6 @@ export class QuestionnaireTreeComponent {
 
     return (
       <Card wide headline={questionnaire.title}>
-        <p class="u-infotext">{questionnaire.purpose ?? stores.i18n.t('questionnaire.infotext')}</p>
         <ol class="questionnaire-tree">
           {flattenedItems
             .filter(
