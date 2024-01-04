@@ -9,6 +9,6 @@ RUN npm run build
 
 FROM bitnami/nginx:latest
 COPY --from=builder /usr/src/app/www /opt/bitnami/nginx/html
-COPY mkg.ghh5.unimedizin-mainz.de.conf /opt/bitnami/nginx/conf/bitnami/mkg.ghh5.unimedizin-mainz.de.conf
+COPY mkg.ghh4.unimedizin-mainz.de.conf /opt/bitnami/nginx/conf/bitnami/mkg.ghh4.unimedizin-mainz.de.conf
 EXPOSE 8080
 CMD ["nginx", "-g", "daemon off;"]
